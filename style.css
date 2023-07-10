@@ -76,7 +76,6 @@ a{
     justify-content:space-between;
     
 } 
-
 .banner-contant{
     max-width: 500px;
 }
@@ -197,10 +196,44 @@ font-weight: 600;
 font-size: 30px;
 font-weight: 700;
 }
-.resume-column{margin-inline:70px ;
+.resume-column{
+    margin-inline:70px ;
 }
 .download-cv{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0px;
+}
+/* footer section */
+footer{ 
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 130px; 
+    gap: 100px;
+    padding:130px 230px 130px 230px ;
+}
+.footer-column{
+    width: 50%;
+}
+.text{
+    font-size: 16px;
+    color:  #474747;
+    text-align: center;
+    text-align: left;
+    padding-left: 220px;
+}
+.social-link{
+    padding-left: 210px
+}
+.contact,input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:  #757575;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 16px;
+}
+.contact{
+    padding-left: 180px;
 }
